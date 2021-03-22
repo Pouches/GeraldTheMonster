@@ -2,7 +2,7 @@
 const fs = require('fs');
 const Discord = require('discord.js');
 const Gerald = new Discord.Client();
-const {prefix , token} = require('../js discord bot/config.json');
+const {prefix , token} = require('./config.json');
 Gerald.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file=>file.endsWith('.js'));
 for(const file of commandFiles){

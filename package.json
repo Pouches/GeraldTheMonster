@@ -1,15 +1,23 @@
 {
   "name": "jsdiscordbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "My personal discord bot",
   "main": "index.js",
   "dependencies": {
     "discord.js": "^12.5.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Cade",
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pouches/GeraldTheMonster.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pouches/GeraldTheMonster/issues"
+  },
+  "homepage": "https://github.com/Pouches/GeraldTheMonster#readme"
 }
