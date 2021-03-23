@@ -1,0 +1,254 @@
+{"responses":{
+    "insults":["You're less reliable than a Panzer 4's transmision","Your head is thicker than the Tiger 2's armour","You're easier to set off than a Sherman","Even the Maus thinks your big", "I've seen T95s faster than you.","You think the M1128 is a tank"],
+    "tanks":{
+        "M4":{
+            "Country of origin":"USA",
+            "Nicknames":["Ronson","Death Traps","Tommy Cooker"],
+            "Armament":{
+                "turret":{
+                    "mantlet":["75mm M3(stabilized)","7.62mm M1919A4(stabilized)"],
+                    "roof":"12.7mm M2HB"
+                },
+                "hull":"7.62mm M1919A4",
+                "ammunition":{
+                    "75mm":"90 rounds",
+                    "12.7mm":"300 rounds",
+                    "7.62mm":"4750 rounds"
+                }
+            },
+            "Armor":{
+                "Upper Front plate":"50.8mm",
+                "Lower Front plate":"50.8mm",
+                "hull side":"38.1mm",
+                "hull rear":"38.1mm",
+                "turret face":"76.2mm",
+                "turret side":"50.8mm",
+                "turret rear":"50.8mm"
+            },
+            "Top Speed":"38 km/h",
+            "Upgrade Packages":{
+                "e6 program":"76mm gun replaced 75mm, ammo stowage reduced to 71 rounds, wet ammo stowage",
+                "e8 program":"HVSS suspension install to give better manuverability"
+            }
+        },
+        "Panzer 4":{
+            "Country of origin":"Germany",
+            "Armament":{
+                "turret":{
+                    "mantlet":["75mm KwK 37 L/24", "7.92mm MG34"],
+                    "roof":"none"
+                },
+                "hull":"7.92mm MG34",
+                "ammunition":{
+                    "75mm":"87 rounds",
+                    "7.92mm":"3150 rounds"
+                }
+            },
+                "Armor":{
+                "Upper Front plate":"50mm",
+                "Lower Front plate":"50mm",
+                "hull side":"20mm",
+                "turret face":"50mm",
+                "turret side":"30mm",
+                "turret rear":"30mm"
+            },
+            "Top Speed":"42km/h",
+            "Upgrade Packages":{
+                "pz.IV Ausf F2":"Longer 75mm KwK 40 L/43 gun installed",
+                "pz.IV Ausf G":"Increased armour to 80mm"
+            }
+        },
+        "Tiger 1":{
+            "Country of origin":"",
+            "Armament":{
+                "turret":{
+                    "mantlet":["88mm Kwk 36 L/56", "7.92mm MG34"],
+                    "roof":"none"
+                },
+                "hull":"7.92mm MG34",
+                "ammunition":{
+                    "88mm":"92 rounds",
+                    "7.92mm":"4500 rounds"
+                }
+            },
+            "Armor":{
+                "Upper Front plate":"100mm",
+                "Lower Front plate":"100mm",
+                "hull side":"80mm",
+                "turret face":"100mm",
+                "turret side":"80mm",
+                "turret rear":"80mm"
+            },
+            "Top Speed":"45 km/h",
+            "Upgrade Packages":{
+                "Ausf E":"increase the 7.92mm ammo by 200 rounds"
+            }
+        },
+        "Panther":{
+            "Country of origin":"Germany",
+            "Armament":{
+                "turret":{
+                    "mantlet":["75mm KwK 42 L/70", "7.92mm MG34"],
+                    "roof":"none"
+                },
+                "hull":"7.92mm MG34",
+                "ammunition":{
+                    "75mm":"79 rounds",
+                    "7.92mm":"5100 rounds"
+                }
+            },
+            "Armor":{
+                "Upper Front plate":"80mm",
+                "Lower Front plate":"60mm",
+                "hull side":"40mm",
+                "turret face":"100mm",
+                "turret side":"80mm",
+                "turret rear":"45mm"
+            },
+            "Top Speed":"55km/h",
+            "Upgrade Packages":"No notable packages"
+        },
+        "M18":{
+            "Country of origin":"USA",
+            "Nickname":"Hellcat",
+            "Armament":{
+                "turret":{
+                    "mantlet":["76mm M1"],
+                    "roof":"12.7 M2HB"
+                },
+                "ammunition":{
+                    "76mm":"45 rounds",
+                    "12.7":"800 rounds"
+                }
+            },
+            "Armor":{
+                "Upper Front plate":"",
+                "Lower Front plate":"",
+                "hull side":"",
+                "turret face":"",
+                "turret side":"",
+                "turret rear":""
+            },
+            "Top Speed":"97km/h",
+            "Upgrade Packages":[]
+        },
+        "M36":{
+            "Country of origin":"",
+            "Nickname":"",
+            "Armament":{
+                "turret":{
+                    "mantlet":[],
+                    "roof":""
+                }
+            },
+            "Armor":{
+                "Upper Front plate":"",
+                "Lower Front plate":"",
+                "hull side":"",
+                "turret face":"",
+                "turret side":"",
+                "turret rear":""
+            },
+            "Top Speed":"",
+            "Upgrade Packages":[]
+        },
+        "T-34":{
+            "Country of origin":"",
+            "Armament":{
+                "turret":{
+                    "mantlet":[],
+                    "roof":""
+                }
+            },
+            "Armor":{
+                "Upper Front plate":"",
+                "Lower Front plate":"",
+                "hull side":"",
+                "turret face":"",
+                "turret side":"",
+                "turret rear":""
+            },
+            "Top Speed":"",
+            "Upgrade Packages":[]
+        },
+        "KV-1":{
+            "Country of origin":"",
+            "Armament":{
+                "turret":{
+                    "mantlet":[],
+                    "roof":""
+                }
+            },
+            "Armor":{
+                "Upper Front plate":"",
+                "Lower Front plate":"",
+                "hull side":"",
+                "turret face":"",
+                "turret side":"",
+                "turret rear":""
+            },
+            "Top Speed":"",
+            "Upgrade Packages":[]
+        },
+        "M4A3E2":{
+            "Country of origin":"",
+            "Nickname":"",
+            "Armament":{
+                "turret":{
+                    "mantlet":[],
+                    "roof":""
+                }
+            },
+            "Armor":{
+                "Upper Front plate":"",
+                "Lower Front plate":"",
+                "hull side":"",
+                "turret face":"",
+                "turret side":"",
+                "turret rear":""
+            },
+            "Top Speed":"",
+            "Upgrade Packages":[]
+        },
+        "IS-1":{
+            "Country of origin":"",
+            "Armament":{
+                "turret":{
+                    "mantlet":[],
+                    "roof":""
+                }
+            },
+            "Armor":{
+                "Upper Front plate":"",
+                "Lower Front plate":"",
+                "hull side":"",
+                "turret face":"",
+                "turret side":"",
+                "turret rear":""
+            },
+            "Top Speed":"",
+            "Upgrade Packages":[]
+        },
+        "A27M":{
+            "Country of origin":"",
+            "Nickname":"",
+            "Armament":{
+                "turret":{
+                    "mantlet":[],
+                    "roof":""
+                }
+            },
+            "Armor":{
+                "Upper Front plate":"",
+                "Lower Front plate":"",
+                "hull side":"",
+                "turret face":"",
+                "turret side":"",
+                "turret rear":""
+            },
+            "Top Speed":"",
+            "Upgrade Packages":[]
+        }
+    }
+}
+}
