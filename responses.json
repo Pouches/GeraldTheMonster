@@ -1,6 +1,7 @@
 {"responses":{
     "insults":["You're less reliable than a Panzer 4's transmision","Your head is thicker than the Tiger 2's armour","You're easier to set off than a Sherman","Even the Maus thinks your big", "I've seen T95s faster than you.","You think the M1128 is a tank"],
     "tanks":{
+        "list":["M4","Panzer 4","Tiger 1","Panther","M18","M36","T-34","KV-1","M4A3E2"],
         "M4":{
             "Country of origin":"USA",
             "Nicknames":["Ronson","Death Traps","Tommy Cooker"],
@@ -13,7 +14,7 @@
                 "ammunition":{
                     "75mm":"90 rounds",
                     "12.7mm":"300 rounds",
-                    "7.62mm":"4750 rounds"
+                    "7.62mm":"4,750 rounds"
                 }
             },
             "Armor":{
@@ -41,7 +42,7 @@
                 "hull":"7.92mm MG34",
                 "ammunition":{
                     "75mm":"87 rounds",
-                    "7.92mm":"3150 rounds"
+                    "7.92mm":"3,150 rounds"
                 }
             },
                 "Armor":{
@@ -68,7 +69,7 @@
                 "hull":"7.92mm MG34",
                 "ammunition":{
                     "88mm":"92 rounds",
-                    "7.92mm":"4500 rounds"
+                    "7.92mm":"4,500 rounds"
                 }
             },
             "Armor":{
@@ -94,7 +95,7 @@
                 "hull":"7.92mm MG34",
                 "ammunition":{
                     "75mm":"79 rounds",
-                    "7.92mm":"5100 rounds"
+                    "7.92mm":"5,100 rounds"
                 }
             },
             "Armor":{
@@ -122,132 +123,119 @@
                 }
             },
             "Armor":{
-                "Upper Front plate":"",
-                "Lower Front plate":"",
-                "hull side":"",
-                "turret face":"",
-                "turret side":"",
-                "turret rear":""
+                "Upper Front plate":"12.7mm",
+                "Lower Front plate":"12.7mm",
+                "hull side":"12.7mm",
+                "turret face":"25.4mm",
+                "turret side":"12.7mm",
+                "turret rear":"12.7mm"
             },
             "Top Speed":"97km/h",
-            "Upgrade Packages":[]
+            "Upgrade Packages":"No notable packages"
         },
         "M36":{
-            "Country of origin":"",
-            "Nickname":"",
+            "Country of origin":"USA",
+            "Nickname":"Slugger",
             "Armament":{
                 "turret":{
-                    "mantlet":[],
-                    "roof":""
+                    "mantlet":["90mm M3"],
+                    "roof":"12.7mm M2HB"
+                },
+                "ammunition":{
+                    "90mm":"47 rounds",
+                    "12.7mm":"1,000 rounds"
                 }
             },
             "Armor":{
-                "Upper Front plate":"",
-                "Lower Front plate":"",
-                "hull side":"",
-                "turret face":"",
-                "turret side":"",
-                "turret rear":""
+                "Upper Front plate":"38mm",
+                "Lower Front plate":"51mm",
+                "hull side":"19mm",
+                "turret face":"76mm",
+                "turret side":"32mm",
+                "turret rear":"44mm"
             },
-            "Top Speed":"",
-            "Upgrade Packages":[]
+            "Top Speed":"42km/h",
+            "Upgrade Packages":"No notable packages"
         },
         "T-34":{
-            "Country of origin":"",
+            "Country of origin":"USSR",
             "Armament":{
                 "turret":{
-                    "mantlet":[],
-                    "roof":""
+                    "mantlet":["76.2mm F-34", "7.62mm DT MG"],
+                    "roof":"none"
+                },
+                "hull":"7.62mm DT MG",
+                "ammunition":{
+                    "76mm":"76 rounds"
                 }
             },
             "Armor":{
-                "Upper Front plate":"",
-                "Lower Front plate":"",
-                "hull side":"",
-                "turret face":"",
-                "turret side":"",
-                "turret rear":""
+                "Upper Front plate":"45mm",
+                "Lower Front plate":"45mm",
+                "hull side":"40mm",
+                "turret face":"40mm",
+                "turret side":"45mm",
+                "turret rear":"45mm"
             },
-            "Top Speed":"",
-            "Upgrade Packages":[]
+            "Top Speed":"53km/h",
+            "Upgrade Packages":{
+                "T-34-85":"Instalation of the 85mm gun and new turret design, reduction of ammunition to 60 rounds"
+            }
         },
         "KV-1":{
-            "Country of origin":"",
+            "Country of origin":"USSR",
             "Armament":{
                 "turret":{
-                    "mantlet":[],
-                    "roof":""
+                    "mantlet":["76.2mm ZiS-5","7.62mm DT MG"],
+                    "rear of turret":"7.62mm DT MG"
+                },
+                "hull":"7.62mm DT MG",
+                "ammunition":{
+                    "76mm":"",
+                    "7.62mm":""
                 }
             },
             "Armor":{
-                "Upper Front plate":"",
-                "Lower Front plate":"",
-                "hull side":"",
-                "turret face":"",
-                "turret side":"",
-                "turret rear":""
+                "Upper Front plate":"75mm",
+                "Lower Front plate":"75mm",
+                "hull side":"70mm",
+                "turret face":"75mm",
+                "turret side":"70mm",
+                "turret rear":"70mm"
             },
-            "Top Speed":"",
-            "Upgrade Packages":[]
+            "Top Speed":"35km/h",
+            "Upgrade Packages":{
+                "KV-2":"Replaced the 76.2mm with a 152mm howitzer, replaced the original turret with an armored fridge",
+                "KV-85":"Replaced the original turret and gun with a redisigned turret and an 85mm gun"
+            }
         },
         "M4A3E2":{
-            "Country of origin":"",
-            "Nickname":"",
+            "Country of origin":"USA",
+            "Nickname":"Sherman Jumbo",
             "Armament":{
                 "turret":{
-                    "mantlet":[],
-                    "roof":""
+                    "mantlet":["75mm M3(stabilized)","7.62mm M1919A4(stabilized)"],
+                    "roof":"12.7mm M2HB"
+                },
+                "hull":"7.62mm M1919A4",
+                "ammunition":{
+                    "75mm":"104 rounds",
+                    "12.7mm":"300 rounds",
+                    "7.62mm":"4,750 rounds"
                 }
             },
             "Armor":{
-                "Upper Front plate":"",
-                "Lower Front plate":"",
-                "hull side":"",
-                "turret face":"",
-                "turret side":"",
-                "turret rear":""
+                "Upper Front plate":"102mm",
+                "Lower Front plate":"102mm",
+                "hull side":"60mm",
+                "turret face":"177mm",
+                "turret side":"150mm",
+                "turret rear":"150mm"
             },
-            "Top Speed":"",
-            "Upgrade Packages":[]
-        },
-        "IS-1":{
-            "Country of origin":"",
-            "Armament":{
-                "turret":{
-                    "mantlet":[],
-                    "roof":""
-                }
-            },
-            "Armor":{
-                "Upper Front plate":"",
-                "Lower Front plate":"",
-                "hull side":"",
-                "turret face":"",
-                "turret side":"",
-                "turret rear":""
-            },
-            "Top Speed":"",
-            "Upgrade Packages":[]
-        },
-        "A27M":{
-            "Country of origin":"",
-            "Nickname":"",
-            "Armament":{
-                "turret":{
-                    "mantlet":[],
-                    "roof":""
-                }
-            },
-            "Armor":{
-                "Upper Front plate":"",
-                "Lower Front plate":"",
-                "hull side":"",
-                "turret face":"",
-                "turret side":"",
-                "turret rear":""
-            },
-            "Top Speed":"",
-            "Upgrade Packages":[]
+            "Top Speed":"35km/h",
+            "Upgrade Packages":{
+                "M4A3E2 76(W)":"Replaced the 75mm with a 76mm M1, added wet ammo storage, reduced ammo capacity to 71 rounds"
+            }
         }
     }
 }
