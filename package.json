@@ -4,6 +4,7 @@
   "description": "My personal discord bot",
   "main": "index.js",
   "dependencies": {
+    "all": "0.0.0",
     "discord.js": "^12.5.1"
   },
   "scripts": {
